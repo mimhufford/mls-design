@@ -1,0 +1,12 @@
+div(fade-in)
+  div.row
+    div.col-lg-10.col-lg-offset-1
+      div.projects.row
+        div.col-xs-6.col-sm-4(ng-repeat='project in projects')
+          div.project(delayed-fade-in)
+            a(href='#/project/{{project.name | url | lowercase}}')
+              div.image(data-src='{{project.image}}')
+              div.caption
+                span 
+                  h3 {{project.name | uppercase}}
+                  p {{project.type}}

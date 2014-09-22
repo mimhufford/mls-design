@@ -1,0 +1,54 @@
+@normal-speed: 1s;
+@slow-speed: 2s;
+
+.animated{
+	animation-fill-mode: forwards;
+	animation-duration: @normal-speed;
+}
+
+
+.fade-in-down {
+	animation-name: fade-in-down;
+	animation-duration: @slow-speed;
+}
+
+@keyframes fade-in-down {
+	from {
+		opacity: 0;
+		transform: translate3d(0,-50px,0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+}
+
+
+.fade-in {
+	animation-name: fade-in;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+.grow-in {
+	animation-name: grow-in;
+}
+
+@keyframes grow-in {
+	from {
+		opacity: 0;
+		transform: scale3d(0.95,0.95,0);
+	}
+	to {
+		opacity: 1;
+		transform: scale3d(1,1,1);
+	}
+}

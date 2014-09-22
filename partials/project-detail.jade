@@ -1,0 +1,34 @@
+div(fade-in)
+
+  div(flexslider).flexslider
+    ul.slides
+      li(ng-repeat='slide in project.slideshow')
+        img(ng-src='{{slide.src}}', alt='{{slide.alt}}')
+  div.info.hidden-xs
+    h3 {{project.name}}
+    p {{project.type}}
+    p {{project.time}}<br/>{{project.client}}
+    p {{project.info}}
+  i.icon-plus.info-toggle.hidden-xs
+  i.icon-remove.info-toggle.hide.hidden-xs
+
+  div.text-center.visible-xs
+    h2 {{project.name}}
+    p {{project.type}}
+    p {{project.time}}<br/>{{project.client}}
+    p {{project.info}}
+
+  div.project-nav.clearfix
+    a(ng-show='prevProject', href='#/project/{{prevProject | url | lowercase}}').pull-left
+      i.icon-arrow-left
+      span {{prevProject}}
+
+    a(ng-show='nextProject', href='#/project/{{nextProject | url | lowercase}}').pull-right
+      span {{nextProject}}
+      i.icon-arrow-right
+
+  script.
+    $(".info-toggle").click(function() {
+      $(".info-toggle").toggleClass("hide");
+      $(".info").toggleClass("info-vis");
+    })

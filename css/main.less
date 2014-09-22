@@ -1,0 +1,219 @@
+﻿@import "bootstrap";
+@import "animation";
+@import "flexslider";
+
+// Bootstrap Variables
+@screen-sm: 560px;
+
+* {
+    transform: translate3d(0,0,0); // force gpu
+}
+
+body {
+    min-width: 300px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+#container {
+    min-height: 200px;
+}
+
+header {
+    text-align: center;
+
+    a div {
+        background-image: url(../images/logo.png), url(../images/bg.png);
+        background-repeat: no-repeat, repeat-x;
+        background-position: center;
+        height: 100px;
+    }
+
+    .svg & a div{
+        background-image: url(../images/logo.svg), url(../images/bg.png);
+    }
+
+    @media (min-width:@screen-sm) {
+        a div {
+            margin: auto;
+            margin-top: 40px;
+            background: url(../images/mls.png);
+            width: 300px;
+            height: 180px;
+        }
+        
+        .svg & a div {
+            background: url(../images/logo.svg);
+        }
+    }
+}
+
+nav {
+    text-align: center;
+    background-image: url(../images/hr.png);
+    background-repeat: repeat-x;
+    background-position: center 45%;
+
+    @margin: 20px;
+    margin: @margin 0 (@margin - 5px);
+
+    @media (min-width:@screen-sm) {
+        @margin: 30px;
+        margin: @margin 0 (@margin - 5px);
+    }
+
+    .nav {
+        display: inline-block;
+        background: white;
+        padding: 0 10px;
+    }
+
+    .nav-pills li a {
+        padding: 10px 0;
+        color: black;
+        width: 80px;
+
+        &:hover {
+            color: white;
+            background: #262262;
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.projects {
+    @margin: 30px;
+    margin-bottom: -@margin;
+
+    .project {
+        @margin: 30px;
+        margin-bottom: @margin;
+        position: relative;
+        border: 1px solid #e3e3e3;
+        overflow: hidden;
+
+        .image {
+            position: relative;
+            height: 0;
+            padding-bottom: 100%;
+            overflow: hidden;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            color: white;
+            opacity: 0;
+            transition: all 0.3s; 
+
+            span {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 15px;
+                padding-bottom: 5px;
+                font-size: 12px;
+            }
+        }
+
+        &:hover .caption {
+            background: rgba(0, 10, 30, 0.85);
+            opacity: 1;
+        }
+
+        a {
+            display: block;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.flexslider {
+    border: none;
+    box-shadow: none;
+
+    .flex-direction-nav a {
+        margin-top: -33%;
+        width: 20px;
+        height: 22px;
+
+        &:before {
+            font-size: 20px;
+        }
+    }
+}
+
+.info {
+    transition: all 0.3s; 
+    opacity: 0;
+    background-color: rgba(255,255,255,0.85);
+    position: absolute;
+    padding: 20px;
+    top:0;
+    bottom: 78px;
+    left: -20px;
+    width: 50%;
+    visibility: collapse;
+}
+
+.info-vis {
+    visibility: visible;
+    left: 0;
+    opacity: 1;
+}
+
+.info-toggle {
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    opacity: 0.5;
+    padding: 10px;
+    font-size: 14px;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &.hide {
+        visibility: collapse;
+    }
+}
+
+.project-nav {
+    margin: 30px 0 10px;
+
+    span, i {
+        padding: 10px 3px;
+    }
+
+    i {
+        font-size: 14px;
+    }
+}
+
+.social-media {
+    i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+}

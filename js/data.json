@@ -1,0 +1,127 @@
+﻿[
+    {
+        "name": "TIRA",
+        "time": "Completed in own time",
+        "client": "- student brief -",
+        "type": "Branding, packaging",
+        "info": "The brief was to design a new range of wines for the upcoming anniversary of TIRA, New Zealand. I chose to focus on the meaning of TIRA, making the flames grow around the bottle, symbolising growth within the TIRA community.",
+        "image": "images/tira/tile.jpg",
+        "slideshow": [
+            { "src": "images/tira/logo.jpg", "alt": "description"},
+            { "src": "images/tira/branded-bottles.jpg", "alt": "description"},
+            { "src": "images/tira/letter-heads.jpg", "alt": "description"},
+            { "src": "images/tira/business-cards.jpg", "alt": "description"}  
+        ]
+    },
+    {
+        "name": "Secret Garden",
+        "time": "4 evenings",
+        "client": "- student brief -",
+        "type": "Business branding",
+        "info": "Branding for a new tailored lingerie boutique keeping in line with the demographic of women with a high disposable income. When creating the logo I took inspiration from the tailor’s stitching, developing a unique typeface.",
+        "image": "images/secret-garden/tile.jpg",
+        "slideshow": [
+            { "src": "images/secret-garden/logo.jpg", "alt": "description"},
+            { "src": "images/secret-garden/all-products.jpg", "alt": "description"},
+            { "src": "images/secret-garden/gift-boxes.jpg", "alt": "description"},
+            { "src": "images/secret-garden/letter-heads.jpg", "alt": "description"},
+            { "src": "images/secret-garden/business-cards.jpg", "alt": "description"},
+            { "src": "images/secret-garden/ipad-website.jpg", "alt": "description"}
+        ]
+    },
+    {
+        "name": "Little Chocolate Shop",
+        "time": "4 evenings",
+        "client": "- student brief -",
+        "type": "Branding, packaging",
+        "info": "Given the chance to develop our own story and concept for a brand, I came up with the Little Chocolate Shop: a small old-fashioned shop with a magical past. Each aspect of the packaging tells its own story through the use of symbols.",
+        "image": "images/little-chocolate-shop/tile.jpg",
+        "slideshow": [
+            { "src": "images/little-chocolate-shop/all-products.jpg", "alt": "description"},
+            { "src": "images/little-chocolate-shop/chocolate-wrapper-design.jpg", "alt": "description"},
+            { "src": "images/little-chocolate-shop/detail-patterns.jpg", "alt": "description"}
+        ]
+    },
+    {
+        "name": "Lonely Planet",
+        "time": "2 evenings",
+        "client": "- student brief -",
+        "type": "eDM",
+        "info": "To design a series of emails to help promote Lonely Planet’s new “Share Your City” feature. Colour was used as the focus of the design to differentiate the emails helping to give each one its own personality.",
+        "image": "images/lonely-planet/tile.jpg",
+        "slideshow": [
+            { "src": "images/lonely-planet/digital-marketing-ipad.jpg", "alt": "description"},
+            { "src": "images/lonely-planet/digital-marketing-scroll.jpg", "alt": "description"},
+            { "src": "images/lonely-planet/digital-marketing-detail-1.jpg", "alt": "description"},
+            { "src": "images/lonely-planet/digital-marketing-detail-2.jpg", "alt": "description"}  
+        ]
+    },
+    {
+        "name": "Fathom",
+        "time": "2 evenings",
+        "client": "- student brief -",
+        "type": "ePublishing Magazine",
+        "info": "Fathom is a new cultural digital magazine. The brief was to design the layout and graphics of the magazine, incorporating interactive features to create an encompassing experience for the reader.",
+        "image": "images/fathom/tile.jpg",
+        "slideshow": [
+            { "src": "images/fathom/e-publishing-magazine-cover.jpg", "alt": "description"},
+            { "src": "images/fathom/e-publishing-magazine-article-1.jpg", "alt": "description"},
+            { "src": "images/fathom/e-publishing-magazine-image-slideshow.jpg", "alt": "description"},
+            { "src": "images/fathom/e-publishing-magazine-article-2.jpg", "alt": "description"}  
+        ]
+    },
+    {
+        "name": "Fabric",
+        "time": "4 evenings",
+        "client": "- student brief -",
+        "type": "Event branding, web design",
+        "info": "Fabric is a fashion symposium being held in Berlin, Germany. It caters to the very top end of the fashion world and the branding had to represent that. I chose an abstract representation of material patterns and carried it throughout all of the marketing material.",
+        "image": "images/fabric/tile.jpg",
+        "slideshow": [
+            { "src": "images/fabric/bus-stop-poster.jpg", "alt": "description"},
+            { "src": "images/fabric/banner-ticket-lanyard.jpg", "alt": "description"},
+            { "src": "images/fabric/small-poster.jpg", "alt": "description"},
+            { "src": "images/fabric/responsive-website-desktop.jpg", "alt": "description"},
+            { "src": "images/fabric/responsive-website-mobile.jpg", "alt": "description"}  
+        ]
+    },
+    {
+        "name": "Footscray",
+        "time": "2 evenings",
+        "client": "- student brief -",
+        "type": "CommPro community report",
+        "info": "Working with large amounts of text, the brief was to create something visually appealing and to present the facts in an interesting way.",
+        "image": "images/footscray/tile.jpg",
+        "slideshow": [
+            { "src": "images/footscray/report-cover.jpg", "alt": "description"},
+            { "src": "images/footscray/overview-image.jpg", "alt": "description"},
+            { "src": "images/footscray/typography.jpg", "alt": "description"},
+            { "src": "images/footscray/infographic.jpg", "alt": "description"}  
+        ]
+    },
+    {
+        "name": "GF-Smith",
+        "time": "2 evenings",
+        "client": "- student brief -",
+        "type": "Promotional posters",
+        "info": "A series of promotional posters for the new GF Smith Colourplan range ‘White Frost’ based on a set of song lyrics. I decided to take a typographical focus for the posters, using the words themselves to illustrate the meaning behind the lyrics.",
+        "image": "images/gf-smith/tile.jpg",
+        "slideshow": [
+            { "src": "images/gf-smith/poster-design-1.jpg", "alt": "description"},
+            { "src": "images/gf-smith/poster-design-2.jpg", "alt": "description"}
+        ]
+    },
+    {
+        "name": "Bertrand",
+        "time": "2 evenings",
+        "client": "- student brief -",
+        "type": "Corporate annual report",
+        "info": "Bertrand is releasing a new bi-monthly magazine for its new starters and graduates. I was to create the design and layout while giving it a young but still corporate feel.",
+        "image": "images/bertrand/tile.jpg",
+        "slideshow": [
+            { "src": "images/bertrand/newsletter-cover.jpg", "alt": "description"},
+            { "src": "images/bertrand/typography-article-portrait.jpg", "alt": "description"},
+            { "src": "images/bertrand/typography-article-landscape.jpg", "alt": "description"} 
+        ]
+    }
+]
